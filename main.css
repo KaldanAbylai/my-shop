@@ -1,0 +1,21 @@
+*{
+    inset: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    color: #363A45;
+    ;
+}
+body{
+    border-top: inset 7px #00ff77;
+}
+.navbar{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+@media (min-width:768px) and (max-width:1200px) {
+    .navbar{
+        font-size: 1.3vw;
+    }
+}
